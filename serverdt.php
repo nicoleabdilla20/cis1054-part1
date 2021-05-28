@@ -10,6 +10,7 @@
     <div>
         <h2>This is a Time and Date Page from server back to client</h2>
         <?php
+        //referred to code done in class
             $date = new DateTime(); //function gets date from server
             $timezone = date_default_timezone_get(); //function gets time from server
             echo "<p>Server Time:</p>";
